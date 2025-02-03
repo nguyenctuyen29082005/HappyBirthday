@@ -504,7 +504,7 @@ p.title-note {
         position: absolute !important;
         top: 0;
         bottom: 0;
-        left: 70px !important;
+        left: 76px !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -568,14 +568,12 @@ p.title-note {
     }
 
     #anh4 {
-        position: relative;
         top: 152px;
         left: 91px;
         z-index: 1;
     }
 
     #anh5 {
-        position: relative;
         top: 74px;
         left: 67px;
         z-index: 1;
@@ -587,7 +585,6 @@ p.title-note {
     }
 
     #s2 {
-        position: relative;
         top: 212px;
         left: 70px;
     }
@@ -598,7 +595,6 @@ p.title-note {
     }
 
     #s4 {
-        position: relative;
         top: 114px;
         left: 117px;
     }
@@ -609,9 +605,8 @@ p.title-note {
     }
 
     #s6 {
-        position: relative;
-        top: 3px;
-        left: 116px;
+        top: 1%;
+        left: 79%;
     }
 
     .footer p {
