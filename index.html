@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Happy birth day</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   <link rel="stylesheet" href="CSS/index.css">
@@ -74,6 +75,7 @@
           <img class="image" id="image1" src="IMG/img1.jpg">
           <img class="image" id="image2" src="IMG/img2.jpg">
           <img class="image" id="image3" src="IMG/img3.jpg">
+          <img class="image" id="image3" src="IMG/img4.jpg">
         </div>
         <script>
           var square = document.getElementById("square");
@@ -148,6 +150,7 @@
 
         <button style="width: 30%; height: 30px; position: relative; top: 0px; left: 100px; padding: 3px;
         border-radius: 5px; background-color: #FF4500;" onclick="toggleAudio()" class="btn-toggle">
+          <i class='fas fa-play' style='font-size:14px;color:rgba(28, 103, 241, 0.74);margin-right: 6px;'></i>
           Phát/Dừng nhạc
         </button>
 
@@ -170,8 +173,8 @@
         </script>
       </div>
       <div class="section-right">
-        <a href="#" data-bs-toggle="modal" data-bs-target="#anhchucsn"><img class="anh" id="anh5"
-            src="IMG/chucsn.png" alt=""></a>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#anhchucsn"><img class="anh" id="anh5" src="IMG/chucsn.png"
+            alt=""></a>
         <a href="#" data-bs-toggle="modal" data-bs-target="#anhbanh"><img class="anh" id="anh4" src="IMG/banh.jpg"
             alt=""></a>
         <img class="anh" id="anh1" src="IMG/qua1.jpg" alt="" onclick="moveImage(this)">
@@ -212,8 +215,12 @@
                 <h5 class="modal-title" id="exampleModalLabel">HỘP QUÀ</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-              <div class="modal-body">
-                <img class="anhmodal" src="IMG/sn1.jpg" alt="hopqua">
+              <div style="display: flex;" class="modal-body">
+                <img style="display: block;" class="anhmodal" src="IMG/sn1.jpg" alt="hopqua">
+                <h4 style="padding-left: 20px;">Tìm thấy được hộp quà rồi à, giờ lấy điện thoại quét QR
+                  MoMo nha, pass là ngày sinh, tháng sinh của Linh cho ý nghĩa, để xem
+                  Linh may mắn nhiều nhiều cỡ nào.
+                </h4>
               </div>
             </div>
           </div>
@@ -269,15 +276,12 @@
               </div>
               <div class="modal-body">
                 <p>
-                  Qua tuổi mới,chúc Linh luôn vui vẻ ,năng động,ngày càng xinh đẹp và trên hết trên phương diện học
-                  tập<br>
-                  luôn đạt được kết quả tốt cũng như trong cuộc sống hãy cố gắng hết mình để có nhiều thành công hơn<br>
-                  còn phương diện tình yêu ,nếu có đối tượng rồi chúc Linh sẽ có tình yêu đẹp với người đó và nếu chưa
-                  có<br>
-                  thì chúc Linh sẽ có được 1 nữa kia luôn quan tâm và chăm sóc tới Linh.Hãy sống hết mình khi còn là
-                  sinh viên nha.<br>
-                <h3>Người viết</h3><br>
-                <p>HậuNguyễn</p>
+                  Qua tuổi mới, chúc Linh luôn vui vẻ, năng động, ngày càng xinh đẹp và trên hết trên phương diện học
+                  tập luôn đạt được kết quả tốt cũng như trong cuộc sống hãy cố gắng hết mình để có nhiều thành công
+                  hơn.<br>
+                  Hãy sống hết mình khi còn là sinh viên nha.<br><br>
+                <h4><b>Người viết</b></h4>
+                <p>Đố biết người viết</p>
                 </p>
               </div>
             </div>

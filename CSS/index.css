@@ -504,7 +504,7 @@ p.title-note {
         position: absolute !important;
         top: 0;
         bottom: 0;
-        left: 76px !important;
+        left: 45% !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -517,7 +517,7 @@ p.title-note {
     }
 
     #square {
-        width: 140px;
+        width: 90%;
         position: relative
     }
 
@@ -530,6 +530,7 @@ p.title-note {
 
     p.title-note {
         font-size: 0.8rem;
+        padding: 5px;
     }
 
     .section-right {
@@ -550,58 +551,58 @@ p.title-note {
     }
 
     #anh1 {
-        top: 40px;
-        left: 117px;
+        top: 49%;
+        left: 58%;
         z-index: 1;
     }
 
     #anh2 {
-        top: 214px;
-        left: 117px;
+        top: 85%;
+        left: 69%;
         z-index: 1;
     }
 
     #anh3 {
-        top: 244px;
-        left: 36px;
+        top: 3%;
+        left: 40%;
         z-index: 1;
     }
 
     #anh4 {
-        top: 152px;
-        left: 91px;
+        top: 32%;
+        left: 10%;
         z-index: 1;
     }
 
     #anh5 {
-        top: 74px;
-        left: 67px;
+        top: 68%;
+        left: 2%;
         z-index: 1;
     }
 
     #s1 {
-        top: 243px;
-        left: 19px;
+        top: 86%;
+        left: 2%;
     }
 
     #s2 {
-        top: 212px;
-        left: 70px;
+        top: 69%;
+        left: 67%;
     }
 
     #s3 {
-        top: 148px;
-        left: 10px;
+        top: 51%;
+        left: 19%;
     }
 
     #s4 {
-        top: 114px;
-        left: 117px;
+        top: 31%;
+        left: 79%;
     }
 
     #s5 {
-        top: 38px;
-        left: 19px;
+        top: 15%;
+        left: 3%;
     }
 
     #s6 {
@@ -614,7 +615,6 @@ p.title-note {
     }
 
 }
-
 
 @media (min-width: 1113px) {
     .wrapper {
@@ -632,4 +632,178 @@ p.title-note {
     }
 }
 
-@media (min-width: 1024px) and (max-width: 1239px) {}
+@media (min-width: 741px) and (max-width: 1112px) {
+    .header {
+        height: 60px;
+    }
+
+    .box {
+        position: relative;
+        width: 36px;
+        height: 44px;
+        margin: 8px;
+    }
+
+    .box::before {
+        content: "";
+        position: absolute;
+        top: 105%;
+        left: 41%;
+        width: 1px;
+        height: 4px;
+    }
+
+    .box::after {
+        content: "";
+        position: absolute;
+        top: 103%;
+        left: 13px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 4px 3px 0px 3px;
+    }
+
+    .box p {
+        font-size: 25px;
+    }
+
+    .section {
+        /* width: 320px; */
+        grid-template-columns: 1fr 2fr;
+        height: 372px;
+    }
+
+    .section-top {
+        grid-column: 1 / -1;
+        position: relative;
+    }
+
+    .section-top h1 {
+        font-size: 2rem;
+    }
+
+    .section-left {
+        grid-column: 1 / 2;
+    }
+
+    .title-instruct {
+        font-size: 0.8rem;
+    }
+
+    button.btn-toggle {
+        position: absolute !important;
+        top: 0;
+        bottom: 0;
+        left: 40% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        border: none;
+        width: 50% !important;
+        height: 20px !important;
+        font-size: 0.6rem;
+        padding: 0px !important;
+    }
+
+    #square {
+        width: 90%;
+        position: relative
+    }
+
+    .image {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 20px;
+    }
+
+    p.title-note {
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+
+    .section-right {
+        grid-column: 2 / 3;
+        position: relative;
+    }
+
+    .anhsao {
+        width: 12%;
+        margin: 0;
+        position: absolute !important;
+    }
+
+    .anh {
+        width: 12%;
+        margin: 0;
+        position: absolute !important;
+    }
+
+    #anh1 {
+        top: 28%;
+        left: 81%;
+        z-index: 1;
+    }
+
+    #anh2 {
+        top: 72%;
+        left: 59%;
+        z-index: 1;
+    }
+
+    #anh3 {
+        top: 0%;
+        left: 61%;
+        z-index: 1;
+    }
+
+    #anh4 {
+        top: 18%;
+        left: 30%;
+        z-index: 1;
+    }
+
+    #anh5 {
+        top: 68%;
+        left: 2%;
+        z-index: 1;
+    }
+
+    #s1 {
+        top: 68%;
+        left: 2%;
+    }
+
+    #s2 {
+        top: 71%;
+        left: 78%;
+    }
+
+    #s3 {
+        top: 51%;
+        left: 19%;
+    }
+
+    #s4 {
+        top: 38%;
+        left: 52%;
+    }
+
+    #s5 {
+        top: 15%;
+        left: 3%;
+    }
+
+    #s6 {
+        top: 1%;
+        left: 83%;
+    }
+
+    .footer p {
+        font-size: 0.8rem;
+    }
+
+    %
+}
