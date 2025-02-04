@@ -508,6 +508,8 @@ p.title-note {
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 2px;
+        line-height: 9px;
         outline: none;
         border: none;
         width: 50% !important;
@@ -516,8 +518,13 @@ p.title-note {
         padding: 0px !important;
     }
 
+    .fa-play {
+        margin-left: 6px;
+    }
+
     #square {
         width: 90%;
+        height: 26%;
         position: relative
     }
 
@@ -557,7 +564,7 @@ p.title-note {
     }
 
     #anh2 {
-        top: 85%;
+        top: 80%;
         left: 69%;
         z-index: 1;
     }
@@ -581,7 +588,7 @@ p.title-note {
     }
 
     #s1 {
-        top: 86%;
+        top: 82%;
         left: 2%;
     }
 
